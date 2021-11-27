@@ -17,11 +17,11 @@ int nAleatoire, nEntree,comp=0,tent;
 
 nAleatoire = rm.nextInt(100)+1;//from 1 to 100
 
-      System.out.println("Combien des tentatives tu veux (saisir un nombre) ");
+      System.out.println("Combien de tentatives voulez-vous (entrez un nombre) ");
 
 tent = sc.nextInt();
 
-      System.out.println("On va commencer avec le nombre? (entre 0 et 100) "); 
+      System.out.println("On commence par le nombre ? (entre 0 et 100) "); 
 
 do{
 
@@ -43,7 +43,7 @@ if(nEntree > nAleatoire )
 
 else
 
-    System.out.println("le nombre est plus grand ");
+    System.out.println("le nombre est plus grand");
 
 if(comp>tent-1)
 
